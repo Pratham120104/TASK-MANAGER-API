@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+venv/
+*.db
+alembic/
+instance/
+.DS_Store

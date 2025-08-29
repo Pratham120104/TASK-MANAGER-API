@@ -1,4 +1,4 @@
-# Task Manager API 🚀
+# Task Manager API 
 
 A RESTful Task Manager API built with FastAPI & PostgreSQL.
 
