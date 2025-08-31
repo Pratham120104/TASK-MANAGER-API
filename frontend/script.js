@@ -1,4 +1,4 @@
-const API_URL = "https://task-manager-api-ksvp.onrender.com/tasks"; // Replace with your deployed backend URL
+const API_URL = "https://task-manager-api-ksvp.onrender.com"; // Replace with your deployed backend URL
 
 async function fetchTasks() {
     const response = await fetch(API_URL);
