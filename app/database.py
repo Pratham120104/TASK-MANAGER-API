@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 # Get the database URL from environment variable
-DATABASE_URL = os.environ.get("DATABASE_URL")
+DATABASE_URL = os.environ.get("https://task-manager-api-ksvp.onrender.com")
 
 # SQLAlchemy setup
 engine = create_engine(DATABASE_URL)
