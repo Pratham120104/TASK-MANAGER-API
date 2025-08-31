@@ -1,4 +1,4 @@
-const API_URL = "https://YOUR_BACKEND_URL/tasks"; // Replace with your deployed backend URL
+const API_URL = "https://task-manager-api-e6li.onrender.com"; // Replace with your deployed backend URL
 
 async function fetchTasks() {
     const response = await fetch(API_URL);
